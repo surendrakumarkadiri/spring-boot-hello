@@ -14,7 +14,7 @@ public class SpringDemoJenkinApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringDemoJenkinApplication.class, args);
 	}
-	@GetMapping
+	@GetMapping("/")
 	public String helloJenken(){
 		return "Hello Jenken";
 	}
